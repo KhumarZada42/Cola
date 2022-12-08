@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, a {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navigation {
+  width: 100%;
+  min-height: 78px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+}
+#navigation i {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+#footer {
+  width: 100%;
+  min-height: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+#footer ul {
+  justify-content: space-between;
+  display: flex;
+  gap: 10px;
+  color: #FFFFFF;
+}
+#footer p {
+  color: #ffffff;
+}
+
+.bg {
+  background-image: url("../imgs/cola-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
+
+.bottles .thereimg {
+  display: flex;
+}
+.bottles .thereimg .leftimg {
+  height: 100%;
+  overflow: hidden;
+}
+.bottles .thereimg .leftimg img:hover {
+  transition: all 2s ease;
+  transform: scale(1.2);
+}
+.bottles .thereimg .rightimg {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  overflow: hidden;
+}
+.bottles .thereimg .rightimg img {
+  height: 50%;
+  width: 100%;
+}
+.bottles .thereimg .rightimg img:hover {
+  transition: all 2s ease;
+  transform: scale(1.2);
+}
+
+.thirdSection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+.thirdSection .image {
+  width: 33.33333333%;
+  overflow: hidden;
+}
+.thirdSection .image img {
+  width: 100%;
+}
+.thirdSection .image img:hover {
+  transition: all 2s ease;
+  transform: scale(1.2);
+}
+
+.follow {
+  height: 40%;
+  background-color: rgb(255, 255, 255);
+}
+.follow ul {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 2%;
+}
+.follow ul li {
+  color: black;
+  font-size: 110%;
+}
+.follow ul li:hover {
+  color: red;
+}
+.follow .icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.facebook:hover {
+  transition: all 2s ease;
+  transform: scale(1.2);
+}
+
+.insta:hover {
+  transition: all 2s ease;
+  transform: scale(1.2);
+}
+
+.youtube:hover {
+  transition: all 2s ease;
+  transform: scale(1.2);
+}
+
+.up {
+  font-size: 50px;
+}
+.up:hover {
+  color: red;
+}
+
+.box {
+  border-bottom: 1px solid rgb(35, 35, 35);
+}/*# sourceMappingURL=main.css.map */

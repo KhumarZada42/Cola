@@ -1,0 +1,17 @@
+#navigation {
+    width: 100%;
+    min-height: 78px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+
+    i {
+        color: rgb(255, 255, 255);
+        padding: 10px;
+    }
+
+}
